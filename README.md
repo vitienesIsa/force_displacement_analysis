@@ -8,6 +8,8 @@ Iterates through per-measurement CSV data, plots each force-displacement curve, 
    3. x_ult - ultimate load, i.e. peak load
    4. x_fail - fracture/failure, i.e. when load drops to/near zero
 
+![alt text](https://github.com/vitienesIsa/force_displacement_analysis/blob/main/plot_with_points.png) "Annotated_force_disp_curve")
+
 X-coordinates are recorded and correspoinding y-values are extracted from csv.
 
 Results are updated and saved to an excel file after each plot. Therefore, progress is not lost if script is interrupted. Already-processed measurements are skipped. 
