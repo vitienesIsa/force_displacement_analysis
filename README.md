@@ -15,11 +15,12 @@ X-coordinates are recorded and correspoinding y-values are extracted from csv.
 Results are updated and saved to an excel file after each plot. Therefore, progress is not lost if script is interrupted. Already-processed measurements are skipped. 
 
  INPUT: root path to folder containing measurements.
- 
+ ** Note: 
+   Script assumes that data is stored in root path as follows:
+   Root path > Folders per date of measurement > Folder per specimen measured > measurement .csv file
+   
  OUTPUT: .xlsx sheet stored in root path with x- and y-coordinates of selected points, and derived outcome measures: Yield force (N), Ultimate force (N), Failure force (N), Stiffness (N/mm), Post-yield displacement (mm), Work-to-failure (N*mm), Sampling rate (Hz), Measurement duration (s)
 
 ![alt text](https://github.com/vitienesIsa/force_displacement_analysis/blob/main/force_disp_illustration.png)
    
-** Note: 
-   Script assumes that data is stored in root path as follows:
-   Root path > Folders per date of measurement > Folder per specimen measured > measurement .csv file
+
