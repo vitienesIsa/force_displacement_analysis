@@ -19,10 +19,4 @@ Results are updated and saved to an excel file after each plot. Therefore, progr
 ** Note: 
    Script assumes that data is stored in root path as follows:
    
-   Root path 
-       |
-       ---Folder, date of measurement
-               |
-               ---Folder, specimen-specific measurements
-                       |
-                       --- .csv file
+   Root path > Folders per date of measurement > Folder per specimen measured > measurement .csv file
