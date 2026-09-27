@@ -14,8 +14,8 @@ Results are updated and saved to an excel file after each plot. Therefore, progr
 
  INPUT: root path to folder containing measurements.
  
- OUTPUT: .xlsx sheet stored in root path with x- and y-coordinates of selected points, and derived outcome measures:
-            - Yield force (N)
+ OUTPUT: .xlsx sheet stored in root path with x- and y-coordinates of selected points, and derived outcome measures:.
+            - Yield force (N).
             - Ultimate force (N)
             - Failure force (N)
             - Stiffness (N/mm) 
