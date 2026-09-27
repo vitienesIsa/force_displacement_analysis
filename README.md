@@ -14,15 +14,16 @@ Results are updated and saved to an excel file after each plot. Therefore, progr
 
  INPUT: root path to folder containing measurements.
  
- OUTPUT: .xlsx sheet stored in root path with x- and y-coordinates of selected points, and derived outcome measures:.
-            - Yield force (N).
-            - Ultimate force (N)
-            - Failure force (N)
-            - Stiffness (N/mm) 
-            - Post-yield displacement (mm)
-            - Work-to-failure (N*mm)
-            - Sampling rate (Hz)
-            - Measurement duration (s)
+ OUTPUT: .xlsx sheet stored in root path with x- and y-coordinates of selected points, and derived outcome measures:
+    - Yield force (N)
+    - Ultimate force (N)
+    - Failure force (N)
+    - Stiffness (N/mm) 
+    - Post-yield displacement (mm)
+    - Work-to-failure (N*mm)
+    - Sampling rate (Hz)
+    - Measurement duration (s)
+    
 ** Note: 
    Script assumes that data is stored in root path as follows:
    
