@@ -12,7 +12,8 @@ X-coordinates are recorded and correspoinding y-values are extracted from csv.
 
 Results are updated and saved to an excel file after each plot. Therefore, progress is not lost if script is interrupted. Already-processed measurements are skipped. 
 
- INPUT: root path to folder containing measurements
+ INPUT: root path to folder containing measurements.
+ 
  OUTPUT: .xlsx sheet stored in root path with x- and y-coordinates of selected points, and derived outcome measures:
             - Yield force (N)
             - Ultimate force (N)
