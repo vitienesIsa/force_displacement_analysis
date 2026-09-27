@@ -1,6 +1,6 @@
 # Mechanical testing force-displacement curve analysis
 
-Developed by Isabela Vitienes as part of the publication Vitienes I.*, Ross E.* et al., Bone, 2026
+Developed by Isabela Vitienes as part of the publication Vitienes I., Ross E., et al., Bone, 2026
 
 Iterates through per-measurement CSV data, plots each force-displacement curve, and prompts user to define (by clicking in plot) the following points:
    1. x_0 - start of loading
